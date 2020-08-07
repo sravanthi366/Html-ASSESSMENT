@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <style>
+        body {
+            width: 800px;
+            margin: auto;
+            font-size: 20px;
+        }
+        
+        .form-content {
+            background-color: rgb(237, 228, 240);
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .btn {
+            background-color: dodgerblue;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            width: 150px;
+            font-size: 20px;
+        }
+        
+        label {
+            display: flex;
+            flex-direction: row;
+            width: 300px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            font-size: 1.5rem;
+            justify-content: start;
+        }
+        
+        input {
+            height: 40px;
+            flex: 0 0 200px;
+            margin-left: 10px;
+            justify-content: start;
+        }
+        
+        select {
+            width: 300px;
+            height: 40px;
+        }
+        
+        .input-content {
+            display: flex;
+            flex-direction: row;
+            margin-right: 30px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-content">
+        <form action="" onsubmit="myFunction()">
+            <div class="input-content">
+                <label for="name">Full Name</label>
+                <img src="/images/user.JPG" width="30px" height="30px">
+                <input type=" text " id="name " placeholder="Full Name " size="40 ">
+
+            </div>
+
+            <div class="input-content "><label for="addl1 ">Address Line1</label>
+                <img src="/images/adreess book.JPG " width="30px " height="30px ">
+                <input type="text " id="addl1 " placeholder="Address Line1 " size="40 ">
+                <br>
+            </div>
+            <div class="input-content "><label for="addl2 ">Address Line2</label>
+                <img src="/images/adreess book.JPG " width="30px " height="30px ">
+                <input type="text " id="addl2 " placeholder="Address Line2 " size="40 ">
+                <br>
+            </div>
+            <div class="input-content "><label for="city ">City</label>
+                <img src="/images/city.JPG " width="30px " height="30px">
+                <input type="text" id="city" placeholder="City" size="40">
+                <br>
+            </div>
+            <div class="input-content"><label for="state">State/Province/Region</label>
+                <img src="/images/location.JPG" width="30px" height="30px">
+                <input type=" text " id="state " placeholder="State/Province/Region " size="40 ">
+                <br>
+            </div>
+            <div class="input-content "><label for="Zip ">Postal code/ZIP</label>
+                <img src="/images/postal.JPG " width="30px" height="30px">
+                <input type="text " id="Zip " placeholder="Postal code/ZIP " size="40 ">
+                <br>
+            </div>
+            <div class="input-content "><label for="Country ">Country</label>
+                <img src="/images/country.JPG " width="30px" height="30px">
+                <select name="country " id="Country "> 
+            <option value="Afghanistan ">Afghanistan</option>
+            <option value="Albania ">Albania</option>
+            <option value="Afghanistan ">Afghanistan</option>
+            <option value="Algeria ">Algeria</option>
+            <option value="Andorra ">Andorra</option>
+            <option value="Bahamas ">Bahamas</option>
+            <option value="Bangladesh ">Bangladesh</option>
+            <option value="Barbados ">Barbados</option>
+            <option value="Cambodia ">Cambodia</option>
+            <option value="Cameroon ">Cameroon</option>
+            <option value="China ">China</option>
+                   </select>
+                </br>
+            </div>
+
+            <div class="input-content "><label for="Email ">Email</label>
+                <img src="/images/postal.JPG ">
+                <input type="email " id="Email " placeholder="Email " size="40 ">
+                <br>
+            </div>
+            <div class="input-content "><label for="Phone ">Phone No</label>
+                <img src="/images/user.JPG ">
+                <input type="text " id="Phone " placeholder="Phone No " size="40 "></div>
+            <br>
+
+
+
+
+            <button type="submit " class="btn ">submit</button>
+
+
+
+        </form>
+    </div>
+    <script>
+        function myFunction() {
+            console.log(alert("Thank You...."))
+        }
+    </script>
+</body>
+
+</html>
